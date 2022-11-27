@@ -1,7 +1,7 @@
 ![Github logo](assets/images/diabetes-stock-image.png)
 
 # Predicting-Who-Is-Diabetic
-Dataset: [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+Dataset: [Kaggle Pima People Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
 **Problem Statement:** 
 *My goal for this personal data project was to use binary classification on a dataset originally from the National Institute of Diabetes and Digestive and Kidney Diseases about the Pima People to predict if patient has diabetes or not.*
@@ -25,8 +25,8 @@ After various readings online I hypothesized BMI and Glucose will be the two bes
 **Tasks**
 
     1. Review data to get an initial understanding.
-        - Do basic statistics.
-        - Visualize patients with a postive diabetes test result(1) using original BMI vs Glucose
+        1. Do basic statistics.
+        1. Visualize patients with a postive diabetes test result(1) using original BMI vs Glucose
     1. Define Logistic Model
     1. Define Cost Function
     1. Defie Gradient Function
@@ -37,5 +37,7 @@ After various readings online I hypothesized BMI and Glucose will be the two bes
     
     
 **Recommendations**
+
+*The model accuracy achieved with only BMI & Glucose as features is 76%*
 
 
