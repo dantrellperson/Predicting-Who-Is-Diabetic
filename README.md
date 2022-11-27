@@ -1,4 +1,4 @@
-![Github logo](https://www.pexels.com/photo/sugar-cubes-beside-tape-measure-near-dices-with-letter-on-a-pink-surface-6942171/)
+![Github logo](assets/images/diabetes-stock-image.jpg)
 
 # Predicting-Who-Is-Diabetic
 Dataset: [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
