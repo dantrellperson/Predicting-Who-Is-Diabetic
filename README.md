@@ -31,7 +31,7 @@ Description: During the first trial of 1,000 iterations with an alpha of 0.001 w
     - if you only view each 100th iteration it will appear as if cost is constantly decreasing, this is not the case, visualizing every 99th value below to illustrate
     - if everything is set correctly cost function should never increase
     
-![Bad Cost Function](screenshots/only_bmi_and_glucose/badcost1000iterations.png)
+![Bad Cost Function](assets/screenshots/only_bmi_and_glucose/badcost1000iterations.png)
 
 Successes: With this trial I discovered a learning rate of 0.001 can give the false appearance of gradient descent working correctly(decreasing)
 
@@ -45,13 +45,13 @@ Trial 2: Only features used were Glucose and BMI, and a learning rate of 0.0001 
 
 Successes: Adjusting my learning rate caused my cost to consistently decrease , visualized below
 
-![Cost Function 1,000 iterations](screenshots/only_bmi_and_glucose/cost1000iterations.png)
+![Cost Function 1,000 iterations](assets/screenshots/only_bmi_and_glucose/cost1000iterations.png)
 
 Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.50 The object was to achieve a lower cost.
 
-![Cost Function 10,000 iterations](screenshots/only_bmi_and_glucose/cost10000iterations.png)
+![Cost Function 10,000 iterations](assets/screenshots/only_bmi_and_glucose/cost10000iterations.png)
 
-![Cost Function 100,000 iterations](screenshots/only_bmi_and_glucose/cost100000iterations.png)
+![Cost Function 100,000 iterations](assets/screenshots/only_bmi_and_glucose/cost100000iterations.png)
 
 Visualize predicted data:
 
@@ -71,7 +71,7 @@ Visualize train data:
 
 Successes: Adding additional feature caused cost to decrease a little more to 0.48
 
-![Cost Function 1,000 iterations](screenshots/bmi_glucose_age/3featuresCost1000Iterations.png)
+![Cost Function 1,000 iterations](assets/screenshots/bmi_glucose_age/3featuresCost1000Iterations.png)
 
 Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.49 The object was to achieve a lower cost.
 
