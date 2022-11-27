@@ -1,4 +1,4 @@
-![Github logo](assets/images/diabetes-stock-image.jpg)
+![Github logo](assets/images/diabetes-stock-image.png)
 
 # Predicting-Who-Is-Diabetic
 Dataset: [Kaggle](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
