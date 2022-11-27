@@ -25,15 +25,15 @@ After various readings online I hypothesized BMI and Glucose will be the two bes
 **Tasks**
 
     1. Review data to get an initial understanding.
-        1. Do basic statistics.
-        1. Visualize patients with a postive diabetes test result(1) using original BMI vs Glucose
-    1. Define Logistic Model
-    1. Define Cost Function
-    1. Defie Gradient Function
-    1. Define Gradient Descent Function
-    1. Define Prediction Function
-    1. Store predicted results in dataframe and export csv
-    1. Visualize predicted results.
+        - Do basic statistics.
+            - Visualize patients with a postive diabetes test result(1) using original BMI vs Glucose
+    2. Define Logistic Model
+    3. Define Cost Function
+    4. Defie Gradient Function
+    5. Define Gradient Descent Function
+    6. Define Prediction Function
+    7. Store predicted results in dataframe and export csv
+    8. Visualize predicted results.
     
     
 **Recommendations**
