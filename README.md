@@ -25,21 +25,29 @@ After various readings online I hypothesized BMI and Glucose will be the two bes
 **Visualize available features**
 
 Visualize a count of diabetic test results
-
+---
 ![Diabetic Count](assets/screenshots/only_bmi_and_glucose/who-is-diabetic-countplot.png)
+---
 
 Visualize age group frequency
+---
 ![Frequency Count](assets/screenshots/only_bmi_and_glucose/age-frequency.png)
+---
 
 Visualize BMI group frequency
+---
 ![Frequency Count](assets/screenshots/only_bmi_and_glucose/BMI-frequency.png)
+---
 
 Visualize Glucose group frequency
+---
 ![Frequency Count](assets/screenshots/only_bmi_and_glucose/Glucose-frequency.png)
+---
 
 Utilize the Shapiro-Wilk algorithm to assess the normality of the distribution of instances with respect to the feature. A barplot is then drawn showing the relative ranks of each feature.
+---
 ![Feature Ranking](assets/screenshots/only_bmi_and_glucose/feature-ranking.png)
-
+---
 
 **Key Milestones**
 
