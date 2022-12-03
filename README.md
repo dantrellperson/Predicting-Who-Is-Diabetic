@@ -77,29 +77,29 @@ Visualize predicted data:
 ![Train Data 2 Features](assets/screenshots/only_bmi_and_glucose/visualizations/predictglucoseVSbmi.png)
 
 
-Recommendations: Test working model with 3 features (Chosen features are Glucose, BMI, & Age)
+Recommendations: Test working model with 3 features (Chosen features are Glucose, BMI, & Prenancies)
 
 
 - - - - - - - - - - - - - - -  
 
-Trial 3: Features used were Glucose BMI and Pregnancies, and a learning rate of 0.0001 at 1,000 , 10,000 , and 100,000 iterations
+Trial 3(adding 3rd feature): Features used were Glucose BMI and Pregnancies, and a learning rate of 0.0001 at 1,000 , 10,000 , and 100,000 iterations
 
 Visualize train data:
 
 ![Train Data 3 Features](assets/screenshots/bmi_glucose_pregnancies/visualizations/glucoseBmiPreg.png)
 
-Successes: Adding additional feature caused cost to decrease a little more to 0.48
+Successes: Gained more insight and confidence with my early prediction of glucose and BMI as adding pregnancy as a feature caused the model to perform more poorly
 
 ![Cost Function 1,000 iterations](assets/screenshots/bmi_glucose_pregnancies/3featuresCost1000Iterations.png)
 
-Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.49 The object was to achieve a lower cost.
+Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.50. Adding pregnancy as an additional feature caused the model to perform with less accuracy. The model failed to achieve a lower cost.
 
-![Cost Function 10,000 iterations](assets/screenshots/bmi_glucose_age/visualizations/3featuresCost10000Iterations.png)
+![Cost Function 10,000 iterations](assets/screenshots/bmi_glucose_pregnancies/visualizations/3featuresCost10000Iterations.png)
 
-![Cost Function 100,000 iterations](assets/screenshots/bmi_glucose_age/visualizations/3featuresCost100000Iterations.png)
+![Cost Function 100,000 iterations](assets/screenshots/bmi_glucose_pregnancies/visualizations/3featuresCost100000Iterations.png)
 
 
-Recommendations: Lowest cost at optimal w & b is determined to be 0.48, adding an additional feature did improve model accuracy. I acheived a model score of 80.73%
+Recommendations: Lowest cost at optimal w & b is determined to be 0.50, adding an additional feature did not improve model accuracy. I acheived a model score of 76.21%. I recommend trying a different variable as a third feature to try and improve accuracy
 
 
 
@@ -123,6 +123,6 @@ Recommendations: Lowest cost at optimal w & b is determined to be 0.48, adding a
 
 **In progress**
 
-*The model accuracy achieved with only BMI & Glucose as features is 76%*
+*The model accuracy achieved with only BMI & Glucose as features is 80.21*
 
 
