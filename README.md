@@ -15,12 +15,31 @@ Health care professionals
 Hospitals
 
 **Scope (systems used)**
-Jupyter Lab, Python, Supervised Learning: Classification, Logistic Regression, Matplotlib, Gradient Descent
+Jupyter Lab, Python, Supervised Learning: Classification, Logistic Regression, Matplotlib, Seaborn Gradient Descent
 
 **Metrics(what is being tracked)**
 Available features from dataset are: Pregnancies, Blood Pressure, Glucose, BMI, Skin Thickness, Insulin, and Age
 
 After various readings online I hypothesized BMI and Glucose will be the two best features used in conjuction to predict if a patient is diabetic or not.
+
+**Visualize available features**
+
+Visualize a count of diabetic test results
+
+![Diabetic Count](assets/screenshots/only_bmi_and_glucose/who-is-diabetic-countplot.png)
+
+Visualize age group frequency
+![Frequency Count](assets/screenshots/only_bmi_and_glucose/age-frequency.png)
+
+Visualize BMI group frequency
+![Frequency Count](assets/screenshots/only_bmi_and_glucose/BMI-frequency.png)
+
+Visualize Glucose group frequency
+![Frequency Count](assets/screenshots/only_bmi_and_glucose/Glucose-frequency.png)
+
+Utilize the Shapiro-Wilk algorithm to assess the normality of the distribution of instances with respect to the feature. A barplot is then drawn showing the relative ranks of each feature.
+![Feature Ranking](assets/screenshots/only_bmi_and_glucose/feature-ranking.png)
+
 
 **Key Milestones**
 
@@ -63,15 +82,15 @@ Recommendations: Test working model with 3 features (Chosen features are Glucose
 
 - - - - - - - - - - - - - - -  
 
-Trial 3: Features used were Glucose BMI and Age, and a learning rate of 0.0001 at 1,000 , 10,000 , and 100,000 iterations
+Trial 3: Features used were Glucose BMI and Pregnancies, and a learning rate of 0.0001 at 1,000 , 10,000 , and 100,000 iterations
 
 Visualize train data:
 
-![Train Data 3 Features](assets/screenshots/bmi_glucose_age/visualizations/glucoseBmiAge.png)
+![Train Data 3 Features](assets/screenshots/bmi_glucose_pregnancies/visualizations/glucoseBmiPreg.png)
 
 Successes: Adding additional feature caused cost to decrease a little more to 0.48
 
-![Cost Function 1,000 iterations](assets/screenshots/bmi_glucose_age/3featuresCost1000Iterations.png)
+![Cost Function 1,000 iterations](assets/screenshots/bmi_glucose_pregnancies/3featuresCost1000Iterations.png)
 
 Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.49 The object was to achieve a lower cost.
 
@@ -80,7 +99,7 @@ Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iteration
 ![Cost Function 100,000 iterations](assets/screenshots/bmi_glucose_age/visualizations/3featuresCost100000Iterations.png)
 
 
-Recommendations: Lowest cost at optimal w & b is determined to be 0.48, adding an additional feature did improve model accuracy. I acheived a model score of 78.47%
+Recommendations: Lowest cost at optimal w & b is determined to be 0.48, adding an additional feature did improve model accuracy. I acheived a model score of 80.73%
 
 
 
@@ -89,7 +108,8 @@ Recommendations: Lowest cost at optimal w & b is determined to be 0.48, adding a
 
     1. Review data to get an initial understanding.
         - Do basic statistics.
-            - Visualize patients with a postive diabetes test result(1) using original BMI vs Glucose
+        - visualize how many patients are diabetic vs who aren't diabetic 
+        - Visualize patients with a postive diabetes test result(1) and patients with a negative diabetes test result using original BMI vs Glucose
     2. Define Logistic Model
     3. Define Cost Function
     4. Defie Gradient Function
@@ -100,6 +120,8 @@ Recommendations: Lowest cost at optimal w & b is determined to be 0.48, adding a
     
     
 **Recommendations**
+
+**In progress**
 
 *The model accuracy achieved with only BMI & Glucose as features is 76%*
 
