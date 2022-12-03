@@ -90,7 +90,7 @@ Visualize train data:
 
 Successes: Gained more insight and confidence with my early prediction of glucose and BMI as adding pregnancy as a feature caused the model to perform more poorly
 
-![Cost Function 1,000 iterations](assets/screenshots/bmi_glucose_pregnancies/3featuresCost1000Iterations.png)
+![Cost Function 1,000 iterations](assets/screenshots/bmi_glucose_pregnancies/visualizations/3featuresCost1000Iterations.png)
 
 Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.50. Adding pregnancy as an additional feature caused the model to perform with less accuracy. The model failed to achieve a lower cost.
 
