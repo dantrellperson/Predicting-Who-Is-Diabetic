@@ -73,6 +73,10 @@ Recommendations: Test for different learning rates that cause gradient descent t
 
 **Trial 2:** Only features used were Glucose and BMI, and a learning rate of 0.0001 at 1,000 , 10,000 , and 100,000 iterations
 
+Visualize train data:
+
+![Train Data 2 Features](assets/screenshots/only_bmi_and_glucose/visualizations/glucoseVSbmi.png)
+
 Successes: Adjusting my learning rate caused my cost to consistently decrease , visualized below. The model accuracy achieved with only BMI & Glucose as features is 73.43%
 
 ![Cost Function 1,000 iterations](assets/screenshots/only_bmi_and_glucose/cost1000iterations.png)
