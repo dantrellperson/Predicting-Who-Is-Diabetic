@@ -3,26 +3,31 @@
 # Predicting-Who-Is-Diabetic
 Dataset: [Kaggle Pima People Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
-**Problem Statement:** 
-*My goal for this personal data project was to use binary classification/logistic regression model on a dataset originally from the National Institute of Diabetes and Digestive and Kidney Diseases about the Pima People to predict if patient has diabetes or not.*
+*Problem Statement:* 
+---
+My goal for this personal data project was to use binary classification/logistic regression model on a dataset originally from the National Institute of Diabetes and Digestive and Kidney Diseases about the Pima People to predict if patient has diabetes or not.
 
-**Impact**
+*Impact*
+---
 
 This model will help predict the onset of diabetes in women who are a part of Pima People community.
 
-**Stakeholders**
+*Stakeholders*
+---
 Health care professionals
 Hospitals
 
-**Scope (systems used)**
+*Scope (systems used)*
+---
 Jupyter Lab, Python, Supervised Learning: Classification, Logistic Regression, Matplotlib, Seaborn Gradient Descent
 
-**Metrics(what is being tracked)**
+*Metrics(what is being tracked)*
+---
 Available features from dataset are: Pregnancies, Blood Pressure, Glucose, BMI, Skin Thickness, Insulin, and Age
 
 After various readings online I hypothesized BMI and Glucose will be the two best features used in conjuction to predict if a patient is diabetic or not.
 
-**Visualize available features**
+*Visualize available features*
 ---
 *Available features are 'Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin',
        'BMI', 'DiabetesPedigreeFunction', 'Age', & 'Outcome'*
@@ -52,7 +57,8 @@ Utilize the Shapiro-Wilk algorithm to assess the normality of the distribution o
 ![Feature Ranking](assets/screenshots/only_bmi_and_glucose/feature-ranking.png)
 ---
 
-**Key Milestones**
+*Key Milestones*
+---
 
 Trial 1: Only features used were Glucose and BMI, and a learning rate of 0.001
 
@@ -167,7 +173,8 @@ During the next trial of 10,000 iterations we see the cost start at 2.60 and dec
 
 
 
-**Tasks**
+*Tasks*
+---
 
     1. Review data to get an initial understanding.
         - Do basic statistics.
@@ -182,7 +189,7 @@ During the next trial of 10,000 iterations we see the cost start at 2.60 and dec
     8. Visualize predicted results.
     
     
-**Recommendations**
+# Recommendations
 
 
 *The model accuracy achieved with only BMI, Glucose, and Pregnancies as features ranges consistently from *78.21% - 80.21%* after 5 trials I recommend moving forward with model from Trial 3. 
