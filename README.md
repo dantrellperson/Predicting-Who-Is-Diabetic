@@ -29,7 +29,7 @@ After various readings online I hypothesized BMI and Glucose will be the two bes
 
 *Get to know our dataset*
 ---
-**Link to Tableau infographic:** [Tableau](tabsoft.co/3uwL8Og)
+**Link to Tableau infographic:** [Pima-Women-Infographic]([tabsoft.co/3uwL8Og](https://public.tableau.com/app/profile/dantrell.person/viz/Predicting-Diabetes-In-Pima-Women/Predicting-Diabetes-In-Pima-Women))
 
 ![Infographic](assets/images/Infographic.png)
 ---
