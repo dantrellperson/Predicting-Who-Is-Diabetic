@@ -27,6 +27,12 @@ Available features from dataset are: Pregnancies, Blood Pressure, Glucose, BMI, 
 
 After various readings online I hypothesized BMI and Glucose will be the two best features used in conjuction to predict if a patient is diabetic or not.
 
+*Get to know our dataset*
+---
+Link to Tableau infographic: tabsoft.co/3uwL8Og
+![Infographic](assets/images/Infographic.png)
+---
+
 *Visualize available features*
 ---
 *Available features are 'Pregnancies', 'Glucose', 'BloodPressure', 'SkinThickness', 'Insulin',
