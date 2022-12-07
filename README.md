@@ -3,8 +3,6 @@
 # Predicting-Who-Is-Diabetic
 Dataset: [Kaggle Pima People Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
-**Link to Tableau infographic:** tabsoft.co/3uwL8Og
-
 *Problem Statement:* 
 ---
 My goal for this personal data project was to use binary classification/logistic regression model on a dataset originally from the National Institute of Diabetes and Digestive and Kidney Diseases about the Pima People to predict if patient has diabetes or not.
@@ -31,6 +29,8 @@ After various readings online I hypothesized BMI and Glucose will be the two bes
 
 *Get to know our dataset*
 ---
+**Link to Tableau infographic:** [Tableau](tabsoft.co/3uwL8Og)
+
 ![Infographic](assets/images/Infographic.png)
 ---
 
