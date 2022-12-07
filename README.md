@@ -184,7 +184,8 @@ During the next trial of 100,000 iterations we see the cost start at 2.60 and de
 
 Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.49. Would have hoped it would be lower
 
-Recommendations: Lowest cost at optimal w & b is determined to be 0.49, using all features improved model accuracy from Trial 3. I acheived a model score of 80.21%. 
+Recommendations: Lowest cost at optimal w & b is determined to be 0.49, using all features improved model accuracy from Trial 3. I acheived a model score of 80.21%. I recommend using predicted data from this model.
+
 
 - - - - - - - - - - - - - - - 
 
@@ -194,19 +195,20 @@ Recommendations: Lowest cost at optimal w & b is determined to be 0.49, using al
     1. Review data to get an initial understanding.
         - Do basic statistics.
         - visualize how many patients are diabetic vs who aren't diabetic 
-        - Visualize patients with a postive diabetes test result(1) and patients with a negative diabetes test result using original BMI vs Glucose
+        - Visualize patients with a positive diabetes test result(1) and patients with a negative diabetes test result using original BMI vs Glucose
     2. Define Logistic Model
     3. Define Cost Function
-    4. Defie Gradient Function
+    4. Define Gradient Function
     5. Define Gradient Descent Function
     6. Define Prediction Function
     7. Store predicted results in dataframe and export csv
     8. Visualize predicted results.
+    9. Load Dataset into SQL database.
     
     
 # Recommendations
 
 
-*The model accuracy achieved with all availables features is **80.21%** after 5 trials I recommend moving forward with model from Trial 5. 
+*The model accuracy achieved with all availables features is **80.21%** after 5 trials I recommend moving forward with data predicted from Trial 5. 
 
 
