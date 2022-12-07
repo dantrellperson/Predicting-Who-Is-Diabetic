@@ -19,7 +19,7 @@ Hospitals
 
 *Scope (systems used)*
 ---
-Jupyter Lab, Python, Supervised Learning: Classification, Logistic Regression, Matplotlib, Seaborn Gradient Descent
+Jupyter Lab, Python, Supervised Learning: Classification, Logistic Regression, Matplotlib, Yellowbrick, Seaborn, Gradient Descent
 
 *Metrics(what is being tracked)*
 ---
