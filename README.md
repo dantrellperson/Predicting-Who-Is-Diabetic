@@ -110,7 +110,7 @@ Visualize predicted data:
 
 Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.50 The object was to achieve a lower cost.
 
-Recommendations: Test working model with 3 features (Chosen features are Glucose, BMI, & Pregnancies)
+Recommendations: Test working model with 3 features (Chosen features are Glucose, BMI, & Age)
 
 
 - - - - - - - - - - - - - - - 
