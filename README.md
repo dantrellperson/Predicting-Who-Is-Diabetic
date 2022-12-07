@@ -21,11 +21,8 @@ Hospitals
 ---
 Jupyter Lab, Python, Supervised Learning: Classification, Logistic Regression, Matplotlib, Yellowbrick, Seaborn, Gradient Descent
 
-*Metrics(what is being tracked)*
+## Metrics(what is being tracked)
 ---
-Available features from dataset are: Pregnancies, Blood Pressure, Glucose, BMI, Skin Thickness, Insulin, and Age
-
-After various readings online I hypothesized BMI and Glucose will be the two best features used in conjuction to predict if a patient is diabetic or not.
 
 *Get to know our dataset*
 ---
