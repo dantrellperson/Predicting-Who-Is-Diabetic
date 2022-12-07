@@ -37,6 +37,11 @@ Visualize a count of diabetic test results
 ![Diabetic Count](assets/screenshots/only_bmi_and_glucose/who-is-diabetic-countplot.png)
 ---
 
+Visualize feature importance 
+---
+![Feature Importance](assets/images/feature-importance.png)
+---
+
 Visualize age group frequency
 ---
 ![Frequency Count](assets/screenshots/only_bmi_and_glucose/age-frequency.png)
@@ -83,7 +88,7 @@ Visualize train data:
 
 ![Train Data 2 Features](assets/screenshots/only_bmi_and_glucose/visualizations/glucoseVSbmi.png)
 
-Successes: Adjusting my learning rate caused my cost to consistently decrease , visualized below. The model accuracy achieved with only BMI & Glucose as features is 73.43%
+Successes: Adjusting my learning rate caused my cost to consistently decrease , visualized below. The model accuracy achieved with only BMI & Glucose as features is 78.12%
 
 ![Cost Function 1,000 iterations](assets/screenshots/only_bmi_and_glucose/cost1000iterations.png)
 - During the first trial of 1,000 iterations with an alpha of 0.0001 we see the cost start at 3.50 and consistently decreases to 0.50
@@ -104,60 +109,62 @@ Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iteration
 Recommendations: Test working model with 3 features (Chosen features are Glucose, BMI, & Pregnancies)
 
 
-- - - - - - - - - - - - - - -  
-
-Trial 3(adding Pregnancies as 3rd feature): Features used were Glucose BMI and Pregnancies, and a learning rate of 0.0001 at 1,000 , 10,000 , and 100,000 iterations
+- - - - - - - - - - - - - - - 
+Trial 3(adding Age as 3rd feature): Features used were Glucose BMI and Age, and a learning rate of 0.0001 at 1,000 , 10,000 , and 100,000 iterations
 
 Visualize train data:
+![Train Data 3 Features](assets/screenshots/bmi_glucose_age/glucoseBmiAge.png)
 
-![Train Data 3 Features](assets/screenshots/bmi_glucose_pregnancies/visualizations/glucoseBmiPreg.png)
+Successes: A lower cost of 0.48 was achieved. The model accuracy achieved with BMI, Glucose, & Age as features is 75.52%
 
-Successes: While a lower cost was not achieved. The model accuracy achieved with BMI, Glucose, & Pregnancy as features is 78.13%
+![Trial 3 Cost Function 1,000 iterations](assets/screenshots/bmi_glucose_age/3featuresCost1000Iterations.png)
 
-![Cost Function 1,000 iterations](assets/screenshots/bmi_glucose_pregnancies/visualizations/3featuresCost1000Iterations.png)
+- During the first trial of 1,000 iterations we see the cost start at 2.54 and decreases to 0.48
 
-- During the first trial of 1,000 iterations we see the cost start at 2.44 and decreases to 0.52
-
-![Cost Function 10,000 iterations](assets/screenshots/bmi_glucose_pregnancies/visualizations/3featuresCost10000Iterations.png)
+![Trial 3 Cost Function 10,000 iterations](assets/screenshots/bmi_glucose_age/3featuresCost10000Iterations.png)
 
 - During the next trial of 10,000 iterations we see the cost start at 2.44 and decreases to 0.50
 
-![Cost Function 100,000 iterations](assets/screenshots/bmi_glucose_pregnancies/visualizations/3featuresCost100000Iterations.png)
+![Trial 3 Cost Function 100,000 iterations](assets/screenshots/bmi_glucose_age/3featuresCost100000Iterations.png)
 
 - During the final trial of 100,000 iterations we see the cost start at 2.44 and decreases to 0.50
 
 Visualize predicted data:
-![Train Data 2 Features](assets/screenshots/bmi_glucose_pregnancies/visualizations/predictGlucoseBmiPreg.png)
+![Train Data 3 Features](assets/screenshots/bmi_glucose_age/predictGlucoseBmiAge.png)
 
 
-Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.50. Adding pregnancy as an additional feature caused the model to perform with more accuracy, more consistently. Changing the model failed to achieve a lower cost however.
+Failures: The model accuracy score is lower than Trial 2
 
-Recommendations: Lowest cost at optimal w & b is determined to be 0.50, adding an additional feature improved model accuracy. I acheived a model score of 78.13%. I recommend trying a different variable as a third feature to try and improve accuracy
+Recommendations: Lowest cost at optimal w & b is determined to be 0.48. Adding the additional feature did not improve model accuracy, I recommend testing a new model using insulin as a fourth feature.
 
-- - - - - - - - - - - - - - -  
-Trial 4(changing 3rd feature to Skin Thickness)
+- - - - - - - - - - - - - - - 
 
-Visualize train data:
-![Train Data 4 Features](assets/screenshots/bmi_glucose_skinthickness/visualizations/glucoseBmiSkin.png)
+Trial 4(adding Insulin as 4th feature): Features used were Glucose BMI and Insulin, and a learning rate of 0.0001 at 1,000 , 10,000 , and 100,000 iterations
 
-Successes: The model accuracy achieved with BMI, Glucose, & Skin Thickness as features is 77.10%
+Successes: While a lower cost was not achieved. The model accuracy achieved with BMI, Glucose, Age & Insulin as features is 78.13%
 
-![Cost Function 1,000 iterations](assets/screenshots/bmi_glucose_skinthickness/visualizations/3featSkinCost1000Iterations.png)
+![Trial 4 Cost Function 1,000 iterations](assets/screenshots/bmi_glucose_age_insulin/3featuresCost1000Iterations.png)
 
-- During the first trial of 1,000 iterations we see the cost start at 2.66 and decreases to 0.51
+- During the first trial of 1,000 iterations we see the cost start at 2.50 and decreases to 0.50
 
-![Cost Function 10,000 iterations](assets/screenshots/bmi_glucose_skinthickness/visualizations/3featSkinCost1000Iterations.png)
+![Trial 4 Cost Function 10,000 iterations](assets/screenshots/bmi_glucose_age_insulin/4featuresCost10000Iterations.png)
 
-- During the next trial of 10,000 iterations we see the cost start at 2.66 and decreases to 0.51. Not doing 100,000 iterations as gradient descent is clearly not functioning better with Glucose, BMI, & Skin Thickness
+- During the next trial of 10,000 iterations we see the cost start at 2.50 and decreases to 0.50, no difference from 1,000 iterations
 
-Failures: The lowest cost value achieved at 1,000, and 10,000 iterations is 0.51. Adding skin thickness as an additional feature caused the model to perform with less accuracy. The model failed to achieve a lower cost.
+![Trial 4Cost Function 100,000 iterations](assets/screenshots/bmi_glucose_age_insulin/4featuresCost100000Iterations.png)
 
-Recommendations: Lowest cost at optimal w & b is determined to be 0.51, adding skin thickness as an additional feature did not improve model accuracy. I acheived a model score of 77.10%. I recommend testing a model with all avaiable variables as last trial
+- During the final trial of 100,000 iterations we see the cost start at 2.50 and decreases to 0.50, no difference from 1,000 iterations
+
+
+
+Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.50.
+
+Recommendations: Lowest cost at optimal w & b is determined to be 0.50, adding an additional feature improved model accuracy from Trial 3. I acheived a model score of 78.13%. I recommend trying one final trial with all features to try and improve accuracy
 
 - - - - - - - - - - - - - - -  
 Trial 5(all avaiable variables):
 
-Successes: I believe I have confirmed after my fifth trial, that Trial 3 with Glucose, BMI, and Pregnancies as features is the best performing model. This model did achieve a slightly lower cost at 0.49
+Successes: Using all features available a cost of 0.49 and a model accuracy of 80.21% 
 
 ![Cost Function 1,000 iterations](assets/screenshots/all_features/visualizations/allfeatCost1000Iterations.png)
 
@@ -167,11 +174,15 @@ During the first trial of 1,000 iterations we see the cost start at 2.60 and dec
 
 During the next trial of 10,000 iterations we see the cost start at 2.60 and decreases to 0.49.
 
+![Cost Function 100,000 iterations](assets/screenshots/all_features/visualizations/allfeatCost100000Iterations.png)
+
+During the next trial of 100,000 iterations we see the cost start at 2.60 and decreases to 0.49. No change from 10,000 iterations
+
+Failures: The lowest cost value achieved at 1,000, 10,000, and 100,000 iterations is 0.49. Would have hoped it would be lower
+
+Recommendations: Lowest cost at optimal w & b is determined to be 0.49, using all features improved model accuracy from Trial 3. I acheived a model score of 80.21%. 
+
 - - - - - - - - - - - - - - - 
-
-
-
-
 
 *Tasks*
 ---
@@ -192,6 +203,6 @@ During the next trial of 10,000 iterations we see the cost start at 2.60 and dec
 # Recommendations
 
 
-*The model accuracy achieved with only BMI, Glucose, and Pregnancies as features ranges consistently from *78.21% - 80.21%* after 5 trials I recommend moving forward with model from Trial 3. 
+*The model accuracy achieved with all availables features is **80.21%** after 5 trials I recommend moving forward with model from Trial 5. 
 
 
