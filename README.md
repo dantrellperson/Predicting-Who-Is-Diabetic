@@ -17,7 +17,7 @@ This model will help predict the onset of diabetes in women who are a part of Pi
 Health care professionals
 Hospitals
 
-*Scope (systems used)*
+*Systems used*
 ---
 Jupyter Lab, Python, Supervised Learning: Classification, Logistic Regression, Matplotlib, Yellowbrick, Seaborn, Gradient Descent
 
