@@ -21,7 +21,7 @@ Hospitals
 ---
 Jupyter Lab, Python, Supervised Learning: Classification, Logistic Regression, Matplotlib, Yellowbrick, Seaborn, Gradient Descent
 
-## Metrics(what is being tracked)
+## Metrics
 ---
 
 *Get to know our dataset*
